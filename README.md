@@ -1,36 +1,100 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PhantomVault 🛡️
 
-## Getting Started
+> Privacy-First Technology for the Modern Age
 
-First, run the development server:
+PhantomVault is een premium privacy-gericht technologiemerk dat veilige smartphones en laptops produceert met geavanceerde beveiligingsfuncties. Deze repository bevat de officiële website, gebouwd met Next.js 14 en TailwindCSS.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🎨 Design
+
+- **Kleurenpalet**: Donker thema met zwart (#0a0a0a) en goud (#D4AF37) accenten
+- **Stijl**: Futuristisch, premium cyber-security uitstraling
+- **Taal**: Nederlands
+
+## 🚀 Features
+
+- ⚡ Next.js 14 met App Router
+- 🎨 TailwindCSS voor styling
+- 📱 Volledig responsive design
+- 🌐 SEO geoptimaliseerd met metadata
+- 🔐 Privacy-first productpresentatie
+
+## 📁 Project Structuur
+
+```
+src/
+├── app/
+│   ├── page.tsx              # Homepage
+│   ├── about/                # Over ons
+│   ├── blog/                 # Blog
+│   ├── contact/              # Contact formulier
+│   ├── faq/                  # Veelgestelde vragen
+│   ├── products/             # Product overzicht
+│   │   ├── phones/           # Telefoons categorie
+│   │   │   ├── phantom-x1-pro/
+│   │   │   ├── phantom-x1/
+│   │   │   └── phantom-lite/
+│   │   └── laptops/          # Laptops categorie
+│   │       ├── vault-book-pro/
+│   │       ├── vault-book/
+│   │       └── vault-book-air/
+│   ├── support/              # Support center
+│   └── technology/           # Technologie pagina
+└── components/
+    ├── Header.tsx            # Navigatie header
+    ├── Footer.tsx            # Site footer
+    └── ui/                   # Herbruikbare UI componenten
+        ├── Button.tsx
+        ├── Card.tsx
+        ├── Section.tsx
+        └── Badge.tsx
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📱 Producten
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Telefoons
+- **Phantom X1 Pro** (€1.299) - Flagship met Titan M3 security chip
+- **Phantom X1** (€899) - Premium beveiliging, toegankelijk
+- **Phantom Lite** (€549) - Privacy voor iedereen
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Laptops
+- **Vault Book Pro** (€2.499) - Ultieme werkstation met hardware kill switches
+- **Vault Book** (€1.699) - Balans tussen prestaties en privacy
+- **Vault Book Air** (€1.199) - Ultra-licht voor onderweg
 
-## Learn More
+## 🛠️ Installatie
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+# Clone de repository
+git clone https://github.com/phantomvault/website.git
+cd phantomvault
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Installeer dependencies
+npm install
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Start development server
+npm run dev
+```
 
-## Deploy on Vercel
+Open [http://localhost:3000](http://localhost:3000) in je browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📦 Scripts
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run dev      # Start development server
+npm run build    # Build voor productie
+npm run start    # Start productie server
+npm run lint     # Lint code
+```
+
+## 🔧 Vereisten
+
+- Node.js 18.17+ (aanbevolen 20+)
+- npm of yarn
+
+## 📄 Licentie
+
+© 2024 PhantomVault. Alle rechten voorbehouden.
+
+---
+
+*Privacy is niet optioneel, het is een grondrecht.* 🔐
