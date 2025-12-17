@@ -126,85 +126,45 @@ const testimonials = [
 export default function HomePage() {
   return (
     <main className="min-h-screen bg-[#0a0a0a]">
-      {/* Hero Section */}
+      {/* Hero Section with Video Background */}
       <section className="relative min-h-[100svh] flex items-center justify-center overflow-hidden">
-        {/* Animated Background */}
-        <div className="absolute inset-0">
-          {/* Base gradient */}
-          <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a] via-[#0d0d0d] to-[#0a0a0a]" />
-          
-          {/* Cyber grid pattern */}
-          <div className="absolute inset-0 cyber-grid opacity-40" />
-          
-          {/* Main gold glow - center */}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] sm:w-[900px] lg:w-[1200px] h-[600px] sm:h-[900px] lg:h-[1200px] bg-gradient-radial from-[#D4AF37]/10 via-[#D4AF37]/5 to-transparent rounded-full blur-[80px] sm:blur-[120px]" />
-          
-          {/* Secondary glow - top right */}
-          <div className="absolute -top-20 -right-20 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] bg-[#D4AF37]/8 rounded-full blur-[100px] animate-pulse" style={{ animationDuration: '4s' }} />
-          
-          {/* Tertiary glow - bottom left */}
-          <div className="absolute -bottom-20 -left-20 w-[250px] sm:w-[400px] h-[250px] sm:h-[400px] bg-[#B8860B]/10 rounded-full blur-[80px] animate-pulse" style={{ animationDuration: '6s', animationDelay: '2s' }} />
-          
-          {/* Floating particles effect */}
-          <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-1/4 left-1/4 w-1 h-1 bg-[#D4AF37] rounded-full animate-ping opacity-60" style={{ animationDuration: '3s' }} />
-            <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-[#FFD700] rounded-full animate-ping opacity-40" style={{ animationDuration: '4s', animationDelay: '1s' }} />
-            <div className="absolute bottom-1/4 left-1/3 w-1 h-1 bg-[#D4AF37] rounded-full animate-ping opacity-50" style={{ animationDuration: '5s', animationDelay: '2s' }} />
-            <div className="absolute top-2/3 right-1/4 w-0.5 h-0.5 bg-[#FFD700] rounded-full animate-ping opacity-30" style={{ animationDuration: '3.5s', animationDelay: '0.5s' }} />
-          </div>
-          
-          {/* Diagonal lines decoration */}
-          <div className="absolute inset-0 opacity-[0.03]" style={{
-            backgroundImage: `repeating-linear-gradient(
-              45deg,
-              transparent,
-              transparent 100px,
-              #D4AF37 100px,
-              #D4AF37 101px
-            )`
-          }} />
-          
-          {/* Top fade overlay */}
-          <div className="absolute top-0 left-0 right-0 h-32 bg-gradient-to-b from-[#0a0a0a] to-transparent" />
-          
-          {/* Bottom fade overlay */}
-          <div className="absolute bottom-0 left-0 right-0 h-32 bg-gradient-to-t from-[#0a0a0a] to-transparent" />
-        </div>
-        
-        {/* Shield watermark */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[300px] sm:w-[500px] h-[300px] sm:h-[500px] opacity-[0.02]">
-          <svg viewBox="0 0 80 90" fill="currentColor" className="w-full h-full text-[#D4AF37]">
-            <path d="M40 4 L74 16 L74 48 C74 68 56 82 40 88 C24 82 6 68 6 48 L6 16 Z" />
-          </svg>
+        {/* Video Background */}
+        <div className="absolute inset-0 z-0">
+          <video
+            autoPlay
+            muted
+            loop
+            playsInline
+            className="absolute w-full h-full object-cover"
+          >
+            <source src="/hero-video.mp4" type="video/mp4" />
+          </video>
+          {/* Dark overlay for better text readability */}
+          <div className="absolute inset-0 bg-black/60" />
+          {/* Gold tint overlay */}
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0a0a0a]/80 via-transparent to-[#0a0a0a]/90" />
         </div>
         
         {/* Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32 text-center">
-          <div className="animate-fade-in-up">
-            <Badge className="mb-4 sm:mb-6 inline-flex items-center gap-2">
-              <span className="relative flex h-2 w-2">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#D4AF37] opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2 w-2 bg-[#D4AF37]"></span>
-              </span>
-              Militaire Encryptie • Zero Data Collection
-            </Badge>
-          </div>
+          <Badge className="mb-4 sm:mb-6">🔒 Militaire Encryptie • Zero Data Collection</Badge>
           
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold mb-4 sm:mb-6 leading-[1.1] tracking-tight">
-            <span className="text-white block">Jouw Privacy.</span>
-            <span className="text-gradient-gold block mt-2">Onze Missie.</span>
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-4 sm:mb-6 leading-tight">
+            <span className="text-white">Jouw Privacy.</span>
+            <br />
+            <span className="text-gradient-gold">Onze Missie.</span>
           </h1>
           
-          <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 sm:mb-12 px-2 leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-8 sm:mb-10 px-2">
             Ontdek de nieuwe standaard in privacy-technologie. PhantomPrivacy levert 
             state-of-the-art beveiligde telefoons en laptops met militaire encryptie, 
             hardware security modules en een volledig transparant besturingssysteem.
           </p>
           
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4 mb-12 sm:mb-16">
-            <Button href="/products" size="lg" fullWidth className="sm:w-auto group">
-              <span>Bekijk Producten</span>
-              <svg className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
+            <Button href="/products" size="lg" fullWidth className="sm:w-auto">
+              Bekijk Producten
+              <svg className="ml-2 w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </Button>
@@ -212,38 +172,14 @@ export default function HomePage() {
               Onze Technologie
             </Button>
           </div>
-          
-          {/* Trust indicators */}
-          <div className="flex flex-wrap items-center justify-center gap-6 sm:gap-10 text-gray-500 text-xs sm:text-sm">
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-[#D4AF37]" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M2.166 4.999A11.954 11.954 0 0010 1.944 11.954 11.954 0 0017.834 5c.11.65.166 1.32.166 2.001 0 5.225-3.34 9.67-8 11.317C5.34 16.67 2 12.225 2 7c0-.682.057-1.35.166-2.001zm11.541 3.708a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>256-bit Encryptie</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-[#D4AF37]" fill="currentColor" viewBox="0 0 20 20">
-                <path fillRule="evenodd" d="M6.267 3.455a3.066 3.066 0 001.745-.723 3.066 3.066 0 013.976 0 3.066 3.066 0 001.745.723 3.066 3.066 0 012.812 2.812c.051.643.304 1.254.723 1.745a3.066 3.066 0 010 3.976 3.066 3.066 0 00-.723 1.745 3.066 3.066 0 01-2.812 2.812 3.066 3.066 0 00-1.745.723 3.066 3.066 0 01-3.976 0 3.066 3.066 0 00-1.745-.723 3.066 3.066 0 01-2.812-2.812 3.066 3.066 0 00-.723-1.745 3.066 3.066 0 010-3.976 3.066 3.066 0 00.723-1.745 3.066 3.066 0 012.812-2.812zm7.44 5.252a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
-              </svg>
-              <span>Open Source</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <svg className="w-4 h-4 sm:w-5 sm:h-5 text-[#D4AF37]" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9 2a1 1 0 000 2h2a1 1 0 100-2H9z" />
-                <path fillRule="evenodd" d="M4 5a2 2 0 012-2 3 3 0 003 3h2a3 3 0 003-3 2 2 0 012 2v11a2 2 0 01-2 2H6a2 2 0 01-2-2V5zm3 4a1 1 0 000 2h.01a1 1 0 100-2H7zm3 0a1 1 0 000 2h3a1 1 0 100-2h-3zm-3 4a1 1 0 100 2h.01a1 1 0 100-2H7zm3 0a1 1 0 100 2h3a1 1 0 100-2h-3z" clipRule="evenodd" />
-              </svg>
-              <span>GDPR Compliant</span>
-            </div>
-          </div>
         </div>
         
         {/* Scroll indicator */}
-        <div className="absolute bottom-6 sm:bottom-10 left-1/2 -translate-x-1/2">
-          <div className="flex flex-col items-center gap-2 text-[#D4AF37]">
-            <span className="text-xs tracking-widest uppercase opacity-60 hidden sm:block">Scroll</span>
-            <div className="w-6 h-10 border-2 border-[#D4AF37]/30 rounded-full flex justify-center p-2">
-              <div className="w-1 h-2 bg-[#D4AF37] rounded-full animate-bounce" />
-            </div>
+        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10">
+          <div className="animate-bounce">
+            <svg className="w-6 h-6 text-[#D4AF37]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+            </svg>
           </div>
         </div>
       </section>
