@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState, useEffect } from 'react';
 
 const navigation = [
@@ -59,10 +60,17 @@ export default function Header() {
         <div className="flex items-center justify-between h-16 sm:h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center space-x-2 sm:space-x-3 py-2 -my-2 px-1 -mx-1 rounded-lg touch-target">
-            <div className="w-9 h-9 sm:w-10 sm:h-10 bg-gradient-to-br from-[#D4AF37] to-[#FFD700] rounded-lg flex items-center justify-center flex-shrink-0">
-              <span className="text-black font-bold text-lg sm:text-xl">P</span>
+            <Image 
+              src="/logo-icon.svg" 
+              alt="PhantomPrivacy" 
+              width={40} 
+              height={40} 
+              className="w-9 h-9 sm:w-10 sm:h-10 flex-shrink-0"
+            />
+            <div className="flex flex-col -space-y-1">
+              <span className="text-lg sm:text-xl font-bold text-gradient-gold leading-tight">PhantomPrivacy</span>
+              <span className="text-[9px] sm:text-[10px] text-[#B8860B] tracking-wider hidden sm:block">Secure Your Digital Self</span>
             </div>
-            <span className="text-lg sm:text-xl font-bold text-gradient-gold">PhantomVault</span>
           </Link>
 
           {/* Desktop Navigation */}

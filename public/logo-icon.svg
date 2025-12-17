@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" fill="none">
+  <!-- Shield with Phantom Icon -->
+  <g transform="translate(0, 0)">
+    <!-- Shield Outline -->
+    <path d="M40 5 L70 15 L70 45 C70 60 55 72 40 80 C25 72 10 60 10 45 L10 15 Z" 
+          fill="none" stroke="#D4AF37" stroke-width="3"/>
+    
+    <!-- Inner Shield Fill -->
+    <path d="M40 10 L65 18 L65 44 C65 56 52 66 40 73 C28 66 15 56 15 44 L15 18 Z" 
+          fill="#D4AF37" fill-opacity="0.15"/>
+    
+    <!-- Phantom Face - Eyes -->
+    <circle cx="32" cy="38" r="4" fill="#D4AF37"/>
+    <circle cx="48" cy="38" r="4" fill="#D4AF37"/>
+    
+    <!-- Phantom Face - Inner Eyes -->
+    <circle cx="32" cy="38" r="2" fill="#0a0a0a"/>
+    <circle cx="48" cy="38" r="2" fill="#0a0a0a"/>
+    
+    <!-- Phantom Cloak/Body -->
+    <path d="M28 50 L28 58 C28 62 30 64 33 64 L33 58 L37 64 L37 58 L43 64 L43 58 L47 64 L47 58 L52 64 C55 64 52 62 52 58 L52 50 C52 46 47 43 40 43 C33 43 28 46 28 50 Z" 
+          fill="#D4AF37"/>
+  </g>
+</svg>

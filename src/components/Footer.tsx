@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 
 const footerLinks = {
   producten: [
@@ -8,7 +9,7 @@ const footerLinks = {
     { name: 'Vergelijk', href: '/products' },
   ],
   bedrijf: [
-    { name: 'Over PhantomVault', href: '/about' },
+    { name: 'Over PhantomPrivacy', href: '/about' },
     { name: 'Technologie', href: '/technology' },
     { name: 'Blog', href: '/blog' },
     { name: 'Carrière', href: '/about' },
@@ -35,10 +36,17 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 sm:col-span-2 md:col-span-3 lg:col-span-1">
             <Link href="/" className="flex items-center space-x-3 mb-6 w-fit">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#D4AF37] to-[#FFD700] rounded-lg flex items-center justify-center flex-shrink-0">
-                <span className="text-black font-bold text-xl">P</span>
+              <Image 
+                src="/logo-icon.svg" 
+                alt="PhantomPrivacy" 
+                width={44} 
+                height={44} 
+                className="w-10 h-10 sm:w-11 sm:h-11 flex-shrink-0"
+              />
+              <div className="flex flex-col -space-y-1">
+                <span className="text-xl font-bold text-gradient-gold leading-tight">PhantomPrivacy</span>
+                <span className="text-[10px] text-[#B8860B] tracking-wider">Secure Your Digital Self</span>
               </div>
-              <span className="text-xl font-bold text-gradient-gold">PhantomVault</span>
             </Link>
             <p className="text-gray-400 text-sm mb-6 max-w-xs">
               De toekomst van privacy-technologie. Bescherm wat belangrijk is met militaire encryptie en hardware beveiliging.
@@ -144,7 +152,7 @@ export default function Footer() {
         {/* Bottom */}
         <div className="mt-12 pt-8 border-t border-[#1a1a1a] flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-gray-500 text-sm">
-            © 2024 PhantomVault. Alle rechten voorbehouden.
+            © 2024 PhantomPrivacy. Alle rechten voorbehouden.
           </p>
           <div className="flex items-center space-x-6">
             <span className="text-gray-500 text-sm flex items-center">

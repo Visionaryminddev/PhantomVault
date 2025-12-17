@@ -18,14 +18,14 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "PhantomVault | Premium Privacy Telefoons & Laptops",
-  description: "Ontdek de nieuwe standaard in privacy-technologie. PhantomVault levert state-of-the-art beveiligde telefoons en laptops met militaire encryptie en hardware security.",
-  keywords: "privacy telefoon, beveiligde laptop, encrypted phone, security, privacy, PhantomVault",
+  title: "PhantomPrivacy | Premium Privacy Telefoons & Laptops",
+  description: "Secure Your Digital Self. PhantomPrivacy levert state-of-the-art beveiligde telefoons en laptops met militaire encryptie en hardware security.",
+  keywords: "privacy telefoon, beveiligde laptop, encrypted phone, security, privacy, PhantomPrivacy",
   manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     statusBarStyle: 'black-translucent',
-    title: 'PhantomVault',
+    title: 'PhantomPrivacy',
   },
 };
 
