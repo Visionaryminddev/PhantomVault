@@ -15,19 +15,19 @@ const faqCategories = [
 const faqs = {
   general: [
     {
-      question: 'Wat is PhantomVault?',
-      answer: 'PhantomVault is een Nederlands bedrijf dat gespecialiseerd is in privacy-georiënteerde hardware. We ontwikkelen en verkopen smartphones en laptops met geavanceerde beveiligingsfeatures, zoals hardware encryptie, secure boot en aangepaste besturingssystemen die je privacy beschermen.',
+      question: 'Wat is PhantomPrivacy?',
+      answer: 'PhantomPrivacy is een Nederlands bedrijf dat gespecialiseerd is in privacy-georiënteerde hardware. We ontwikkelen en verkopen smartphones en laptops met geavanceerde beveiligingsfeatures, zoals hardware encryptie, secure boot en aangepaste besturingssystemen die je privacy beschermen.',
     },
     {
-      question: 'Waarom zou ik een PhantomVault apparaat kiezen boven een reguliere smartphone of laptop?',
-      answer: 'Standaard apparaten van grote fabrikanten verzamelen enorme hoeveelheden data over je gedrag, locatie en voorkeuren. PhantomVault apparaten zijn vanaf de grond opgebouwd met privacy als prioriteit. We verzamelen geen data, bieden hardware kill switches, en draaien op aangepaste besturingssystemen zonder tracking.',
+      question: 'Waarom zou ik een PhantomPrivacy apparaat kiezen boven een reguliere smartphone of laptop?',
+      answer: 'Standaard apparaten van grote fabrikanten verzamelen enorme hoeveelheden data over je gedrag, locatie en voorkeuren. PhantomPrivacy apparaten zijn vanaf de grond opgebouwd met privacy als prioriteit. We verzamelen geen data, bieden hardware kill switches, en draaien op aangepaste besturingssystemen zonder tracking.',
     },
     {
-      question: 'Zijn PhantomVault producten legaal?',
+      question: 'Zijn PhantomPrivacy producten legaal?',
       answer: 'Ja, absoluut. Privacy is een fundamenteel recht en het gebruik van encryptie en beveiligde apparaten is volledig legaal in Nederland en de EU. Onze producten zijn bedoeld voor legitiem gebruik door privacy-bewuste consumenten, journalisten, activisten, en bedrijven die gevoelige data verwerken.',
     },
     {
-      question: 'Waar worden PhantomVault producten gemaakt?',
+      question: 'Waar worden PhantomPrivacy producten gemaakt?',
       answer: 'Onze hardware wordt geproduceerd door vertrouwde partners in Taiwan en Japan, onder strenge kwaliteitscontrole. De software-ontwikkeling en eindassemblage vindt plaats in Nederland, waar we ook de security chips programmeren en het besturingssysteem installeren.',
     },
   ],
@@ -41,7 +41,7 @@ const faqs = {
       answer: 'Ja, PhantomOS is compatibel met de meeste Android apps. Je kunt apps installeren via F-Droid (open source app store), Aurora Store (anonieme toegang tot Play Store apps), of door APK bestanden direct te installeren. Let op dat sommige apps die afhankelijk zijn van Google Play Services mogelijk niet werken of beperkte functionaliteit hebben.',
     },
     {
-      question: 'Hoe lang worden PhantomVault apparaten ondersteund?',
+      question: 'Hoe lang worden PhantomPrivacy apparaten ondersteund?',
       answer: 'We bieden minimaal 5 jaar security updates voor al onze apparaten. Dit is significant langer dan de meeste fabrikanten. Hardware garantie is 2 jaar standaard, met optie voor extended warranty tot 5 jaar.',
     },
     {
@@ -55,11 +55,11 @@ const faqs = {
       answer: 'Hardware kill switches zijn fysieke schakelaars die de stroomtoevoer naar componenten volledig onderbreken. Op onze Pro-modellen kun je met een schakelaar de microfoon, camera, en zelfs de baseband (mobiel netwerk) uitschakelen. Dit is veiliger dan software-oplossingen omdat malware de hardware niet kan reactiveren.',
     },
     {
-      question: 'Hoe werkt de encryptie op PhantomVault apparaten?',
+      question: 'Hoe werkt de encryptie op PhantomPrivacy apparaten?',
       answer: 'We gebruiken AES-256 bit encryptie voor alle data op het apparaat. De encryptiesleutels worden opgeslagen in een hardware security module (HSM) of Titan security chip, die fysiek beveiligd is tegen uitleen. Zelfs als iemand de opslag chip verwijdert, kan de data niet gelezen worden zonder de juiste sleutel.',
     },
     {
-      question: 'Kan PhantomVault mijn data lezen of toegang krijgen tot mijn apparaat?',
+      question: 'Kan PhantomPrivacy mijn data lezen of toegang krijgen tot mijn apparaat?',
       answer: 'Nee. We hebben geen backdoors, geen remote toegang, en we verzamelen geen data. De encryptiesleutels worden lokaal gegenereerd en verlaten nooit je apparaat. Zelfs als we dat zouden willen (wat we niet willen), kunnen we technisch gezien niet bij je data.',
     },
     {
@@ -88,7 +88,7 @@ const faqs = {
   support: [
     {
       question: 'Hoe kan ik contact opnemen met support?',
-      answer: 'Je kunt ons bereiken via live chat (Ma-Vr 9:00-18:00), e-mail (support@phantomvault.com), of telefoon (+31 20 123 4567). Voor technische vragen raden we aan eerst onze documentatie te bekijken in het Support Center.',
+      answer: 'Je kunt ons bereiken via live chat (Ma-Vr 9:00-18:00), e-mail (support@phantomprivacy.com), of telefoon (+31 20 123 4567). Voor technische vragen raden we aan eerst onze documentatie te bekijken in het Support Center.',
     },
     {
       question: 'Mijn apparaat werkt niet meer, wat nu?',
@@ -130,7 +130,7 @@ export default function FAQPage() {
             Veelgestelde <span className="text-gradient-gold">Vragen</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Vind snel antwoord op de meest gestelde vragen over PhantomVault 
+            Vind snel antwoord op de meest gestelde vragen over PhantomPrivacy 
             producten, beveiliging en bestellingen.
           </p>
         </div>

@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Retourbeleid | PhantomVault',
-  description: 'Informatie over het retourneren van PhantomVault producten en ons teruggavebeleid.',
+  title: 'Retourbeleid | PhantomPrivacy',
+  description: 'Informatie over het retourneren van PhantomPrivacy producten en ons teruggavebeleid.',
 };
 
 const returnSteps = [

@@ -3,7 +3,7 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Telefoons | PhantomVault',
+  title: 'Privacy Telefoons | PhantomPrivacy',
   description: 'Ontdek onze premium privacy telefoons met militaire encryptie, PhantomOS en hardware security modules.',
 };
 
@@ -69,7 +69,7 @@ const phones = [
     name: 'Phantom Lite',
     price: '€599',
     originalPrice: null,
-    description: 'Privacy toegankelijk voor iedereen. De Phantom Lite biedt alle essentiële beveiligingsfeatures van PhantomVault in een betaalbaar pakket. Perfect voor wie de overstap wil maken naar privacy-georiënteerde technologie.',
+    description: 'Privacy toegankelijk voor iedereen. De Phantom Lite biedt alle essentiële beveiligingsfeatures van PhantomPrivacy in een betaalbaar pakket. Perfect voor wie de overstap wil maken naar privacy-georiënteerde technologie.',
     image: '📱',
     specs: {
       display: '6.1" OLED, 60Hz, 2340x1080',
@@ -225,7 +225,7 @@ export default function PhonesPage() {
             Het Besturingssysteem dat <span className="text-gradient-gold">Privacy Respecteert</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Alle PhantomVault telefoons draaien op PhantomOS - onze eigen, geharde versie van Android
+            Alle PhantomPrivacy telefoons draaien op PhantomOS - onze eigen, geharde versie van Android
             zonder Google services, tracking of backdoors.
           </p>
         </div>

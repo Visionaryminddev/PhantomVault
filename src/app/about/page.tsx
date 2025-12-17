@@ -2,15 +2,15 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Over PhantomVault | Privacy & Security Experts',
-  description: 'Leer meer over PhantomVault - het bedrijf achter de veiligste privacy telefoons en laptops ter wereld.',
+  title: 'Over PhantomPrivacy | Privacy & Security Experts',
+  description: 'Leer meer over PhantomPrivacy - het bedrijf achter de veiligste privacy telefoons en laptops ter wereld.',
 };
 
 const timeline = [
   {
     year: '2019',
     title: 'De Oprichting',
-    description: 'PhantomVault werd opgericht door een team van cybersecurity experts met een missie: privacy toegankelijk maken voor iedereen.',
+    description: 'PhantomPrivacy werd opgericht door een team van cybersecurity experts met een missie: privacy toegankelijk maken voor iedereen.',
   },
   {
     year: '2020',
@@ -94,13 +94,13 @@ export default function AboutPage() {
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-[#D4AF37]/5 rounded-full blur-[150px]" />
         
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Badge className="mb-6">Over PhantomVault</Badge>
+          <Badge className="mb-6">Over PhantomPrivacy</Badge>
           <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
             Wij Geloven in een{' '}
             <span className="text-gradient-gold">Privé Toekomst</span>
           </h1>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            PhantomVault is opgericht met één missie: iedereen de tools geven om hun 
+            PhantomPrivacy is opgericht met één missie: iedereen de tools geven om hun 
             digitale privacy te beschermen. Zonder compromissen.
           </p>
         </div>
@@ -116,7 +116,7 @@ export default function AboutPage() {
             </h2>
             <p className="text-gray-400 text-lg mb-6">
               In een wereld waar big tech bedrijven elk aspect van ons digitale leven 
-              tracken, geloven wij dat er een alternatief moet zijn. PhantomVault 
+              tracken, geloven wij dat er een alternatief moet zijn. PhantomPrivacy 
               bouwt hardware en software die jouw privacy beschermt - niet exploiteert.
             </p>
             <p className="text-gray-400 text-lg mb-6">
@@ -208,7 +208,7 @@ export default function AboutPage() {
         <div className="text-center mb-16">
           <Badge className="mb-4">Ons Team</Badge>
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-            De Mensen Achter PhantomVault
+            De Mensen Achter PhantomPrivacy
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
             Een team van gepassioneerde security experts, engineers en privacy advocates.

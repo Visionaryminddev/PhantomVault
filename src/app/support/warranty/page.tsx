@@ -2,8 +2,8 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Garantie | PhantomVault',
-  description: 'Informatie over de PhantomVault garantievoorwaarden en wat er gedekt wordt.',
+  title: 'Garantie | PhantomPrivacy',
+  description: 'Informatie over de PhantomPrivacy garantievoorwaarden en wat er gedekt wordt.',
 };
 
 const warrantyFeatures = [
@@ -61,7 +61,7 @@ export default function WarrantyPage() {
             <span className="text-gradient-gold">Garantie</span> Voorwaarden
           </h1>
           <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto px-2">
-            Kwaliteit waar we achter staan. Alle PhantomVault producten 
+            Kwaliteit waar we achter staan. Alle PhantomPrivacy producten 
             worden geleverd met uitgebreide garantie.
           </p>
         </div>

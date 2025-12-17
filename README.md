@@ -1,8 +1,8 @@
-# PhantomVault 🛡️
+# PhantomPrivacy 🛡️
 
 > Privacy-First Technology for the Modern Age
 
-PhantomVault is een premium privacy-gericht technologiemerk dat veilige smartphones en laptops produceert met geavanceerde beveiligingsfuncties. Deze repository bevat de officiële website, gebouwd met Next.js 14 en TailwindCSS.
+PhantomPrivacy is een premium privacy-gericht technologiemerk dat veilige smartphones en laptops produceert met geavanceerde beveiligingsfuncties. Deze repository bevat de officiële website, gebouwd met Next.js 14 en TailwindCSS.
 
 ## 🎨 Design
 
@@ -65,8 +65,8 @@ src/
 
 ```bash
 # Clone de repository
-git clone https://github.com/phantomvault/website.git
-cd phantomvault
+git clone https://github.com/phantomprivacy/website.git
+cd phantomprivacy
 
 # Installeer dependencies
 npm install
@@ -93,7 +93,7 @@ npm run lint     # Lint code
 
 ## 📄 Licentie
 
-© 2024 PhantomVault. Alle rechten voorbehouden.
+© 2024 PhantomPrivacy. Alle rechten voorbehouden.
 
 ---
 

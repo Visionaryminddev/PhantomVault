@@ -107,7 +107,7 @@ const stats = [
 // Testimonials
 const testimonials = [
   {
-    quote: 'PhantomVault heeft mijn kijk op mobiele beveiliging volledig veranderd. Eindelijk een telefoon die privacy serieus neemt.',
+    quote: 'PhantomPrivacy heeft mijn kijk op mobiele beveiliging volledig veranderd. Eindelijk een telefoon die privacy serieus neemt.',
     author: 'Alexander V.',
     role: 'Security Consultant',
   },
@@ -142,7 +142,7 @@ export default function HomePage() {
           </h1>
           
           <p className="text-base sm:text-lg md:text-xl text-gray-400 max-w-3xl mx-auto mb-8 sm:mb-10 px-2">
-            Ontdek de nieuwe standaard in privacy-technologie. PhantomVault levert 
+            Ontdek de nieuwe standaard in privacy-technologie. PhantomPrivacy levert 
             state-of-the-art beveiligde telefoons en laptops met militaire encryptie, 
             hardware security modules en een volledig transparant besturingssysteem.
           </p>
@@ -190,7 +190,7 @@ export default function HomePage() {
             Enterprise-Grade Security
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base px-2">
-            Elk PhantomVault apparaat is ontworpen met meerdere lagen van beveiliging,
+            Elk PhantomPrivacy apparaat is ontworpen met meerdere lagen van beveiliging,
             van hardware tot software, om jouw privacy maximaal te beschermen.
           </p>
         </div>
@@ -271,7 +271,7 @@ export default function HomePage() {
               <span className="text-gradient-gold">Toekomst van Privacy</span>
             </h2>
             <p className="text-gray-400 mb-4 sm:mb-6 text-sm sm:text-base">
-              PhantomVault apparaten draaien op PhantomOS, een geharde versie van Android 
+              PhantomPrivacy apparaten draaien op PhantomOS, een geharde versie van Android 
               zonder Google-services. Gecombineerd met onze eigen hardware security module 
               en secure boot verificatie, bieden we ongeëvenaarde bescherming.
             </p>
@@ -355,7 +355,7 @@ export default function HomePage() {
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto mb-6 sm:mb-8 text-sm sm:text-base px-2">
               Sluit je aan bij duizenden privacy-bewuste gebruikers die hebben gekozen 
-              voor PhantomVault. Ervaar de vrijheid van echte digitale privacy.
+              voor PhantomPrivacy. Ervaar de vrijheid van echte digitale privacy.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 sm:gap-4">
               <Button href="/products" size="lg" fullWidth className="sm:w-auto">

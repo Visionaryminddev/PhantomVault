@@ -15,7 +15,7 @@ const contactMethods = [
     icon: '✉️',
     title: 'Email',
     description: 'Antwoord binnen 24 uur',
-    info: 'support@phantomvault.com',
+    info: 'support@phantomprivacy.com',
     action: 'Stuur Email',
   },
   {
@@ -255,9 +255,9 @@ export default function ContactPage() {
                   <div>
                     <div className="font-medium text-white">E-mail</div>
                     <div className="text-gray-400">
-                      Algemeen: info@phantomvault.com<br />
-                      Support: support@phantomvault.com<br />
-                      Pers: press@phantomvault.com
+                      Algemeen: info@phantomprivacy.com<br />
+                      Support: support@phantomprivacy.com<br />
+                      Pers: press@phantomprivacy.com
                     </div>
                   </div>
                 </div>

@@ -3,7 +3,7 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Laptops | PhantomVault',
+  title: 'Privacy Laptops | PhantomPrivacy',
   description: 'Ontdek onze premium privacy laptops met hardware encryptie, secure boot en geharde Linux-distributies.',
 };
 
@@ -231,7 +231,7 @@ export default function LaptopsPage() {
             Een OS Gebouwd voor <span className="text-gradient-gold">Beveiliging</span>
           </h2>
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Alle PhantomVault laptops komen met VaultOS - onze geharde Linux-distributie 
+            Alle PhantomPrivacy laptops komen met VaultOS - onze geharde Linux-distributie 
             gebaseerd op Debian met extra beveiligingslagen en privacy-tools.
           </p>
         </div>
@@ -287,7 +287,7 @@ export default function LaptopsPage() {
               Oplossingen voor <span className="text-gradient-gold">Bedrijven</span>
             </h2>
             <p className="text-gray-400 mb-6">
-              Heeft uw organisatie behoefte aan beveiligde werkstations? PhantomVault biedt 
+              Heeft uw organisatie behoefte aan beveiligde werkstations? PhantomPrivacy biedt 
               enterprise oplossingen met volume kortingen, MDM integratie en dedicated support.
             </p>
             

@@ -3,7 +3,7 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Vault Book Air | PhantomVault',
+  title: 'Vault Book Air | PhantomPrivacy',
   description: 'Ultra-lichte privacy laptop voor onderweg. Perfecte balans tussen portabiliteit en beveiliging.',
 };
 

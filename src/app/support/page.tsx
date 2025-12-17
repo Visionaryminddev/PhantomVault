@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Support | PhantomVault',
+  title: 'Support | PhantomPrivacy',
   description: 'Hulp nodig? Vind antwoorden in ons help center, documentatie of neem contact op met ons support team.',
 };
 
@@ -151,7 +151,7 @@ export default function SupportPage() {
               </div>
               <h3 className="text-xl font-semibold text-white mb-2">Email Support</h3>
               <p className="text-gray-400 mb-4">Stuur ons een bericht, antwoord binnen 24u.</p>
-              <span className="text-[#D4AF37]">support@phantomvault.com</span>
+              <span className="text-[#D4AF37]">support@phantomprivacy.com</span>
             </Card>
           </Link>
           
@@ -254,7 +254,7 @@ export default function SupportPage() {
             </div>
             <h3 className="text-2xl font-bold text-white mb-4">Garantie</h3>
             <p className="text-gray-400 mb-6">
-              Alle PhantomVault apparaten komen met 2 jaar standaard garantie. 
+              Alle PhantomPrivacy apparaten komen met 2 jaar standaard garantie. 
               Extended warranty opties zijn beschikbaar voor extra gemoedsrust.
             </p>
             <ul className="space-y-2 mb-6">
@@ -288,7 +288,7 @@ export default function SupportPage() {
             </div>
             <h3 className="text-2xl font-bold text-white mb-4">Retourneren</h3>
             <p className="text-gray-400 mb-6">
-              Niet tevreden? Geen probleem. Je kunt elk PhantomVault product 
+              Niet tevreden? Geen probleem. Je kunt elk PhantomPrivacy product 
               binnen 30 dagen retourneren voor volledige restitutie.
             </p>
             <ul className="space-y-2 mb-6">

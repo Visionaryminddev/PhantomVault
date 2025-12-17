@@ -3,8 +3,8 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Blog | PhantomVault',
-  description: 'Lees het laatste nieuws over privacy, beveiliging en technologie van PhantomVault.',
+  title: 'Blog | PhantomPrivacy',
+  description: 'Lees het laatste nieuws over privacy, beveiliging en technologie van PhantomPrivacy.',
 };
 
 const featuredPost = {
@@ -56,7 +56,7 @@ const posts = [
     slug: '5-manieren-privacy-verbeteren',
   },
   {
-    title: 'PhantomVault Community: Een Jaar Later',
+    title: 'PhantomPrivacy Community: Een Jaar Later',
     excerpt: 'Een terugblik op het eerste jaar van onze open source community en de bijdragen van onze gebruikers.',
     author: 'Sarah Chen',
     date: '20 November 2024',

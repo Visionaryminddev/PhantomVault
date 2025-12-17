@@ -2,8 +2,8 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Carrière | PhantomVault',
-  description: 'Word deel van het PhantomVault team. Bekijk onze openstaande vacatures en bouw mee aan de toekomst van privacy.',
+  title: 'Carrière | PhantomPrivacy',
+  description: 'Word deel van het PhantomPrivacy team. Bekijk onze openstaande vacatures en bouw mee aan de toekomst van privacy.',
 };
 
 const openPositions = [
@@ -50,7 +50,7 @@ const benefits = [
   { icon: '📚', title: 'Leerbudget', description: '€2.000 per jaar voor persoonlijke ontwikkeling' },
   { icon: '🏥', title: 'Zorgverzekering', description: 'Volledige dekking voor jou en je gezin' },
   { icon: '🎮', title: 'Team Events', description: 'Regelmatige team uitjes en hackathons' },
-  { icon: '📱', title: 'PhantomVault Gear', description: 'Gratis toegang tot al onze producten' },
+  { icon: '📱', title: 'PhantomPrivacy Gear', description: 'Gratis toegang tot al onze producten' },
 ];
 
 export default function CareersPage() {
@@ -76,7 +76,7 @@ export default function CareersPage() {
       {/* Benefits */}
       <Section className="border-b border-[#1a1a1a]" spacing="md">
         <div className="text-center mb-10 sm:mb-12">
-          <Badge className="mb-3 sm:mb-4">Waarom PhantomVault?</Badge>
+          <Badge className="mb-3 sm:mb-4">Waarom PhantomPrivacy?</Badge>
           <h2 className="text-2xl sm:text-3xl font-bold text-white mb-4">
             Voordelen & Benefits
           </h2>

@@ -3,7 +3,7 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Producten | PhantomVault',
+  title: 'Producten | PhantomPrivacy',
   description: 'Ontdek onze premium privacy telefoons en laptops met militaire encryptie en hardware beveiliging.',
 };
 
@@ -27,7 +27,7 @@ const phones = [
   {
     name: 'Phantom Lite',
     price: '€599',
-    description: 'Instapmodel met alle essentiële beveiligingsfeatures van PhantomVault.',
+    description: 'Instapmodel met alle essentiële beveiligingsfeatures van PhantomPrivacy.',
     href: '/products/phones/phantom-lite',
     specs: ['6.1" OLED 60Hz', 'Snapdragon 7 Gen 2', '6GB RAM', '128GB Storage', 'Secure Enclave'],
     badge: 'Value',

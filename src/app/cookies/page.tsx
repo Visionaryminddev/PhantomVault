@@ -2,8 +2,8 @@ import { Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Cookie Policy | PhantomVault',
-  description: 'Informatie over het cookiegebruik op de PhantomVault website.',
+  title: 'Cookie Policy | PhantomPrivacy',
+  description: 'Informatie over het cookiegebruik op de PhantomPrivacy website.',
 };
 
 export default function CookiesPage() {
@@ -34,7 +34,7 @@ export default function CookiesPage() {
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">Onze Aanpak</h2>
               <div className="p-4 bg-[#D4AF37]/10 border border-[#D4AF37]/30 rounded-lg mb-4">
                 <p className="text-[#D4AF37] font-semibold">
-                  🔒 PhantomVault gebruikt GEEN tracking cookies
+                  🔒 PhantomPrivacy gebruikt GEEN tracking cookies
                 </p>
               </div>
               <p className="text-gray-400 leading-relaxed">
@@ -120,8 +120,8 @@ export default function CookiesPage() {
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">Contact</h2>
               <p className="text-gray-400">
                 Vragen over ons cookiebeleid? Neem contact op via{' '}
-                <a href="mailto:privacy@phantomvault.com" className="text-[#D4AF37] hover:underline">
-                  privacy@phantomvault.com
+                <a href="mailto:privacy@phantomprivacy.com" className="text-[#D4AF37] hover:underline">
+                  privacy@phantomprivacy.com
                 </a>
               </p>
             </section>

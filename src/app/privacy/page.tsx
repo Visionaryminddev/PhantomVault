@@ -2,8 +2,8 @@ import { Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy | PhantomVault',
-  description: 'Lees hoe PhantomVault jouw privacy beschermt en welke gegevens we verzamelen.',
+  title: 'Privacy Policy | PhantomPrivacy',
+  description: 'Lees hoe PhantomPrivacy jouw privacy beschermt en welke gegevens we verzamelen.',
 };
 
 export default function PrivacyPage() {
@@ -33,7 +33,7 @@ export default function PrivacyPage() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Inleiding</h2>
               <p className="text-gray-400 leading-relaxed">
-                Bij PhantomVault nemen we privacy uiterst serieus - het is immers de kern van onze missie. 
+                Bij PhantomPrivacy nemen we privacy uiterst serieus - het is immers de kern van onze missie. 
                 Dit privacybeleid legt uit hoe we omgaan met gegevens die je met ons deelt wanneer je onze 
                 website bezoekt of onze producten en diensten gebruikt.
               </p>
@@ -117,9 +117,9 @@ export default function PrivacyPage() {
                 neem contact met ons op via:
               </p>
               <div className="mt-4 p-4 bg-[#0a0a0a] rounded-lg">
-                <p className="text-[#D4AF37]">privacy@phantomvault.com</p>
+                <p className="text-[#D4AF37]">privacy@phantomprivacy.com</p>
                 <p className="text-gray-500 text-sm mt-2">
-                  PhantomVault B.V.<br />
+                  PhantomPrivacy B.V.<br />
                   Amsterdam, Nederland
                 </p>
               </div>

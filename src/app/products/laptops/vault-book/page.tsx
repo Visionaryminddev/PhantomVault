@@ -3,7 +3,7 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Vault Book | PhantomVault',
+  title: 'Vault Book | PhantomPrivacy',
   description: 'Premium privacy laptop met Intel Core Ultra 7, 16GB RAM en VaultOS.',
 };
 

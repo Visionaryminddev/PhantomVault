@@ -2,8 +2,8 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Retourneren | PhantomVault Support',
-  description: 'Hoe je PhantomVault producten kunt retourneren en wat de voorwaarden zijn.',
+  title: 'Retourneren | PhantomPrivacy Support',
+  description: 'Hoe je PhantomPrivacy producten kunt retourneren en wat de voorwaarden zijn.',
 };
 
 export default function SupportReturnsPage() {
@@ -62,7 +62,7 @@ export default function SupportReturnsPage() {
                 <div>
                   <h3 className="text-lg font-semibold text-white mb-2">Meld je retour aan</h3>
                   <p className="text-gray-400 text-sm">
-                    Stuur een e-mail naar returns@phantomvault.com met je ordernummer 
+                    Stuur een e-mail naar returns@phantomprivacy.com met je ordernummer 
                     en reden van retour, of gebruik het contactformulier.
                   </p>
                 </div>

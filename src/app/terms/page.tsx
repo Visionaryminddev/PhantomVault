@@ -2,8 +2,8 @@ import { Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Algemene Voorwaarden | PhantomVault',
-  description: 'Algemene voorwaarden voor het gebruik van PhantomVault producten en diensten.',
+  title: 'Algemene Voorwaarden | PhantomPrivacy',
+  description: 'Algemene voorwaarden voor het gebruik van PhantomPrivacy producten en diensten.',
 };
 
 export default function TermsPage() {
@@ -34,7 +34,7 @@ export default function TermsPage() {
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">1. Algemeen</h2>
               <p className="text-gray-400 leading-relaxed">
                 Deze algemene voorwaarden zijn van toepassing op alle aanbiedingen, bestellingen en 
-                overeenkomsten van PhantomVault B.V., gevestigd te Amsterdam, Nederland. Door het 
+                overeenkomsten van PhantomPrivacy B.V., gevestigd te Amsterdam, Nederland. Door het 
                 plaatsen van een bestelling ga je akkoord met deze voorwaarden.
               </p>
             </section>
@@ -43,7 +43,7 @@ export default function TermsPage() {
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">2. Bestellingen</h2>
               <p className="text-gray-400 leading-relaxed">
                 Een overeenkomst komt tot stand op het moment dat je een orderbevestiging per e-mail 
-                ontvangt. PhantomVault behoudt zich het recht voor bestellingen te weigeren of 
+                ontvangt. PhantomPrivacy behoudt zich het recht voor bestellingen te weigeren of 
                 aanvullende informatie op te vragen.
               </p>
             </section>
@@ -78,7 +78,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">6. Garantie</h2>
               <p className="text-gray-400 leading-relaxed">
-                Alle PhantomVault producten worden geleverd met 2 jaar fabrieksgarantie. De garantie 
+                Alle PhantomPrivacy producten worden geleverd met 2 jaar fabrieksgarantie. De garantie 
                 dekt materiaal- en fabricagefouten bij normaal gebruik. Schade door onjuist gebruik, 
                 ongelukken of modificaties valt buiten de garantie.
               </p>
@@ -87,7 +87,7 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">7. Aansprakelijkheid</h2>
               <p className="text-gray-400 leading-relaxed">
-                PhantomVault is niet aansprakelijk voor indirecte schade, gevolgschade of gederfde 
+                PhantomPrivacy is niet aansprakelijk voor indirecte schade, gevolgschade of gederfde 
                 winst. Onze aansprakelijkheid is beperkt tot het bedrag van de aankoopprijs van het 
                 betreffende product.
               </p>
@@ -97,7 +97,7 @@ export default function TermsPage() {
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">8. Intellectueel Eigendom</h2>
               <p className="text-gray-400 leading-relaxed">
                 Alle intellectuele eigendomsrechten met betrekking tot onze producten, software en 
-                website berusten bij PhantomVault. Het is niet toegestaan deze te kopiëren, 
+                website berusten bij PhantomPrivacy. Het is niet toegestaan deze te kopiëren, 
                 modificeren of distribueren zonder schriftelijke toestemming.
               </p>
             </section>
@@ -113,9 +113,9 @@ export default function TermsPage() {
             <section>
               <h2 className="text-xl sm:text-2xl font-bold text-white mb-4">10. Contact</h2>
               <div className="p-4 bg-[#0a0a0a] rounded-lg">
-                <p className="text-gray-400">PhantomVault B.V.</p>
+                <p className="text-gray-400">PhantomPrivacy B.V.</p>
                 <p className="text-gray-400">Amsterdam, Nederland</p>
-                <p className="text-[#D4AF37] mt-2">legal@phantomvault.com</p>
+                <p className="text-[#D4AF37] mt-2">legal@phantomprivacy.com</p>
                 <p className="text-gray-500 text-sm mt-2">KvK: 12345678</p>
               </div>
             </section>

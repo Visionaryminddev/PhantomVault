@@ -3,8 +3,8 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Security Audits | PhantomVault',
-  description: 'Bekijk de onafhankelijke security audits en certificeringen van PhantomVault producten.',
+  title: 'Security Audits | PhantomPrivacy',
+  description: 'Bekijk de onafhankelijke security audits en certificeringen van PhantomPrivacy producten.',
 };
 
 const audits = [

@@ -3,7 +3,7 @@ import { Button, Card, Badge, Section } from '@/components/ui';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Phantom Lite | PhantomVault',
+  title: 'Phantom Lite | PhantomPrivacy',
   description: 'Betaalbare privacy smartphone met essentiële beveiliging en PhantomOS.',
 };
 
